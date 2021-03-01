@@ -7,13 +7,15 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
+    "noUncheckedIndexedAccess": true,
     "outDir": "dist",
     "paths": {
       "*": ["node_modules/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "strict": true
   },
   "include": ["src/**/*"]
 }
